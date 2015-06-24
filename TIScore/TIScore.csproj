@@ -44,16 +44,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Game.cs" />
+    <Compile Include="Player.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -79,7 +90,25 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Placeholder.png" />
+    <None Include="Resources\Yssaril.png" />
+    <None Include="Resources\Yin.png" />
+    <None Include="Resources\Xxcha.png" />
+    <None Include="Resources\Winnu.png" />
+    <None Include="Resources\University.png" />
+    <None Include="Resources\Sol.png" />
+    <None Include="Resources\Sardakk.png" />
+    <None Include="Resources\Saar.png" />
+    <None Include="Resources\Arborec.png" />
+    <None Include="Resources\Creuss.png" />
+    <None Include="Resources\Embers.png" />
+    <None Include="Resources\Hacan.png" />
+    <None Include="Resources\Lazax.png" />
+    <None Include="Resources\Letnev.png" />
+    <None Include="Resources\Mentak.png" />
+    <None Include="Resources\Mindnet.png" />
+    <None Include="Resources\Naalu.png" />
+    <None Include="Resources\Nekro.png" />
+    <Content Include="Resources\Placeholder.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

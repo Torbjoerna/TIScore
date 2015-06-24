@@ -521,8 +521,12 @@
             // 
             // pictureBox1
             // 
+            System.Resources.ResourceManager rm = new System.Resources.ResourceManager(typeof(TIScore.Properties.Resources));
+            string playerRace = "Saar";
+            object playerImageResource = rm.GetObject(playerRace);
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::TIScore.Properties.Resources.Placeholder;
+            //this.pictureBox1.Image = global::TIScore.Properties.Resources.Saar;
+            this.pictureBox1.Image = (System.Drawing.Image)playerImageResource;
             this.pictureBox1.Location = new System.Drawing.Point(3, 16);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(102, 81);
