@@ -73,16 +73,6 @@ namespace TIScore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Creuss {
-            get {
-                object obj = ResourceManager.GetObject("Creuss", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap Embers {
             get {
                 object obj = ResourceManager.GetObject("Embers", resourceCulture);
@@ -93,9 +83,29 @@ namespace TIScore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ghosts {
+            get {
+                object obj = ResourceManager.GetObject("Ghosts", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Hacan {
             get {
                 object obj = ResourceManager.GetObject("Hacan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Jolnar {
+            get {
+                object obj = ResourceManager.GetObject("Jolnar", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +133,9 @@ namespace TIScore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Mentak {
+        internal static System.Drawing.Bitmap Lizix {
             get {
-                object obj = ResourceManager.GetObject("Mentak", resourceCulture);
+                object obj = ResourceManager.GetObject("Lizix", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +143,9 @@ namespace TIScore.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Mindnet {
+        internal static System.Drawing.Bitmap Mentak {
             get {
-                object obj = ResourceManager.GetObject("Mindnet", resourceCulture);
+                object obj = ResourceManager.GetObject("Mentak", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -196,16 +206,6 @@ namespace TIScore.Properties {
         internal static System.Drawing.Bitmap Sol {
             get {
                 object obj = ResourceManager.GetObject("Sol", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap University {
-            get {
-                object obj = ResourceManager.GetObject("University", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -103,7 +103,8 @@ namespace TIScore
         {
             populatePlayers();
             this.Hide();
-            parentGame.SwitchForms(playerListForm2);
+            parentGame.SetPlayerList(playerListForm2);
+            parentGame.SwitchForms();
             //var form1 = new Form1(playerList);
             //form1.ShowDialog();
             this.Close();

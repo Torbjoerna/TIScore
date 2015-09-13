@@ -20,6 +20,9 @@
             base.Dispose(disposing);
         }
 
+
+
+
         #region Windows Form Designer generated code
 
         /// <summary>
@@ -521,11 +524,21 @@
             // 
             // pictureBox1
             // 
-            System.Resources.ResourceManager rm = new System.Resources.ResourceManager(typeof(TIScore.Properties.Resources));
-            string playerRace = "Saar";
-            object playerImageResource = rm.GetObject(playerRace);
+
+
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            //this.pictureBox1.Image = global::TIScore.Properties.Resources.Saar;
+
+            this.pictureBox1.Location = new System.Drawing.Point(3, 16);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(102, 81);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+
+            /*
+            string player1Race = parentGame.getPlayerList()[0].Race;
+            object playerImageResource = rm.GetObject(player1Race);
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = (System.Drawing.Image)playerImageResource;
             this.pictureBox1.Location = new System.Drawing.Point(3, 16);
             this.pictureBox1.Name = "pictureBox1";
@@ -533,6 +546,8 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            */
+            
             // 
             // Form1
             // 
@@ -583,6 +598,9 @@
 
         #endregion
 
+
+
+
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
@@ -618,6 +636,9 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
         private System.Windows.Forms.GroupBox groupBox11;
         private System.Windows.Forms.PictureBox pictureBox2;
+
+
+
     }
 }
 
